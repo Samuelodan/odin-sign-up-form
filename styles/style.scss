@@ -109,5 +109,14 @@ $form-bg-color: #FFFFFF;
     border-radius: 8px;
     color: $form-bg-color;
     background-color: $button-color;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-family: $main-font;
+    font-weight: 500;
+  }
+  a {
+    color: $button-color;
+    text-decoration: none;
   }
 }
