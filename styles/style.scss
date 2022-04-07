@@ -77,7 +77,13 @@ $form-bg-color: #FFFFFF;
         border: 1px solid $form-border-color;
         border-radius: 4px;
 
-        
+        &:focus {
+          outline: none;
+          border-color: blue;
+        }
+        &:invalid:focus {
+          border-color: hotpink;
+        }
       }
       
     }

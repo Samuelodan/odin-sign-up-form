@@ -129,4 +129,13 @@ footer p {
   border: 1px solid #E5E7EB;
   border-radius: 4px;
 }
+
+.middle .form-row .input-div input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.middle .form-row .input-div input:invalid:focus {
+  border-color: hotpink;
+}
 /*# sourceMappingURL=style.css.map */
