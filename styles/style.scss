@@ -8,6 +8,8 @@ $logo-div-color: rgba(17, 16, 16, 0.5);
 $button-color: #596D48;
 $form-border-color: #E5E7EB;
 
+@import "./_aside.scss";
+
 *,
 ::before,
 ::after {
@@ -19,52 +21,5 @@ $form-border-color: #E5E7EB;
   display: flex;
   width: 100%;
 }
-aside {
-  height: 100vh;
-  width: 40vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-image: url(../img/halie-west-25xggax4bSA-unsplash.jpg);
-  background-size: cover;
-  color: white;
-  padding-top: 10rem;
-}
-.logo-div {
-  height: 16vh;
-  //border: 2px solid purple;
-  padding-top: 5px;
-  background-color: $logo-div-color;
 
-  .inner-logo-div {
-    //border: 2px solid blue;
-    display: flex;
-    width: fit-content;
-    margin: 0 auto;
-    
-
-    img {
-    //display: block;
-    height: calc(14vh - 5px);
-    //width: calc(calc(14vh - 5px) * 0.748);
-    //margin: 0 auto;
-    };
-    p {
-      font-family: $logo-font;
-      font-size: 4.5rem;
-      margin-top: 1rem;
-    }
-  }
-
-  
-}
-
-
-footer {
-  height: 2rem;
-  text-align: center;
-  p {
-    padding-bottom: 1rem;
-  }
-}
 
