@@ -46,3 +46,40 @@ $form-bg-color: #FFFFFF;
 
 }
 
+.middle {
+  font-family: $main-font;
+  margin-bottom: 3rem;
+
+  h1 {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .form-row {
+    display: flex;
+    margin-bottom: 1rem;
+    font-size: 10px;
+    font-weight: 500;
+
+    .input-div {
+      margin-right: 10%;
+      
+
+      label {
+        display: block;
+      }
+      input {
+        // appearance: none;
+        // -webkit-appearance: none;
+        padding: 3px;
+        padding-left: 10px;
+        border: 1px solid $form-border-color;
+        border-radius: 4px;
+
+        
+      }
+      
+    }
+  }
+}
