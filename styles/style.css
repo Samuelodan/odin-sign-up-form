@@ -1,0 +1,74 @@
+@font-face {
+  font-family: norse-bold;
+  src: url(../fonts/Norse-Bold.otf);
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+aside {
+  height: 100vh;
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url(../img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 10rem;
+}
+
+.logo-div {
+  height: 16vh;
+  padding-top: 5px;
+}
+
+.logo-div .inner-logo-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.logo-div .inner-logo-div img {
+  height: calc(14vh - 5px);
+}
+
+.logo-div .inner-logo-div p {
+  font-family: norse-bold;
+  font-size: 4.5rem;
+  margin-top: 1rem;
+}
+
+footer {
+  height: 2rem;
+  text-align: center;
+}
+
+footer p {
+  padding-bottom: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
