@@ -21,7 +21,7 @@
 
 aside {
   height: 100vh;
-  width: 30vw;
+  width: 40vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +41,7 @@ aside {
 .logo-div {
   height: 16vh;
   padding-top: 5px;
+  background-color: rgba(17, 16, 16, 0.5);
 }
 
 .logo-div .inner-logo-div {

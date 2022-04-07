@@ -4,7 +4,7 @@
 }
 
 $logo-font: norse-bold;
-$logo-div-color: rgba(63, 61, 61, 0.4);
+$logo-div-color: rgba(17, 16, 16, 0.5);
 $button-color: #596D48;
 $form-border-color: #E5E7EB;
 
@@ -21,7 +21,7 @@ $form-border-color: #E5E7EB;
 }
 aside {
   height: 100vh;
-  width: 30vw;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,6 +34,7 @@ aside {
   height: 16vh;
   //border: 2px solid purple;
   padding-top: 5px;
+  background-color: $logo-div-color;
 
   .inner-logo-div {
     //border: 2px solid blue;
