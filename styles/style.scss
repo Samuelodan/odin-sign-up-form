@@ -50,7 +50,7 @@ $form-bg-color: #FFFFFF;
   font-family: $main-font;
   //margin-bottom: 2rem;
   //border: 1px solid hotpink;
-  box-shadow: 0 5px 4px rgba(78, 75, 75, 0.4);
+  box-shadow: 0 2px 3px rgba(78, 75, 75, 0.3);
   padding-top: 1rem;
   padding-bottom: 1rem;
   position: relative;
@@ -114,7 +114,7 @@ $form-bg-color: #FFFFFF;
   p {
     font-family: $main-font;
     font-weight: 500;
-    
+
     a {
     color: $button-color;
     text-decoration: none;
