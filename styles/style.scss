@@ -43,22 +43,17 @@ $form-bg-color: #FFFFFF;
   >p {
     margin-bottom: 1.5rem;
   }
-
 }
 
 .middle {
   font-family: $main-font;
-  //margin-bottom: 2rem;
-  //border: 1px solid hotpink;
   box-shadow: 0 2px 3px rgba(78, 75, 75, 0.3);
   padding-top: 1rem;
   padding-bottom: 1rem;
   position: relative;
 
-
   h1 {
     margin-bottom: 1.5rem;
-    //margin-top: 1rem;
     font-size: 20px;
     font-weight: 500;
   }
@@ -71,13 +66,10 @@ $form-bg-color: #FFFFFF;
     .input-div {
       margin-right: 10%;
       
-
       label {
         display: block;
       }
       input {
-        // appearance: none;
-        // -webkit-appearance: none;
         padding: 3px;
         padding-left: 10px;
         border: 1px solid $form-border-color;
@@ -116,9 +108,9 @@ $form-bg-color: #FFFFFF;
     font-weight: 500;
 
     a {
-    color: $button-color;
-    text-decoration: none;
-  }
+      color: $button-color;
+      text-decoration: none;
+    }
   }
   
 }

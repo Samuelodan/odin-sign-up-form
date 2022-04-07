@@ -12,23 +12,18 @@ aside {
 }
 .logo-div {
   height: 16vh;
-  //border: 2px solid purple;
   padding-top: 5px;
   background-color: $logo-div-color;
 
   .inner-logo-div {
-    //border: 2px solid blue;
     display: flex;
     width: fit-content;
     margin: 0 auto;
-    
 
     img {
-    //display: block;
     height: calc(14vh - 5px);
-    //width: calc(calc(14vh - 5px) * 0.748);
-    //margin: 0 auto;
     };
+
     p {
       font-family: $logo-font;
       font-size: 4.5rem;
@@ -38,7 +33,6 @@ aside {
 
   
 }
-
 
 footer {
   height: 2rem;
