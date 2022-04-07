@@ -6,6 +6,7 @@
 aside {
   height: 100vh;
   width: 40vw;
+  min-width: 35vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,5 +72,25 @@ footer p {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+}
+
+.upper,
+.middle,
+.lower {
+  padding-left: 2rem;
+}
+
+.upper {
+  height: 17rem;
+  background-color: #F9FAFB;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 6.5rem;
+  padding-right: 20%;
+}
+
+.upper > p {
+  margin-bottom: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
