@@ -48,11 +48,17 @@ $form-bg-color: #FFFFFF;
 
 .middle {
   font-family: $main-font;
-  margin-bottom: 3rem;
+  //margin-bottom: 2rem;
+  //border: 1px solid hotpink;
+  box-shadow: 0 5px 4px rgba(78, 75, 75, 0.4);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+
 
   h1 {
     margin-bottom: 1.5rem;
-    margin-top: 1rem;
+    //margin-top: 1rem;
     font-size: 20px;
     font-weight: 500;
   }
@@ -88,4 +94,12 @@ $form-bg-color: #FFFFFF;
       
     }
   }
+}
+
+.lower {
+  height: 10rem;
+  background-color: $main-bg-color;
+  padding-top: 2rem;
+
+  
 }
