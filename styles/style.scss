@@ -114,9 +114,11 @@ $form-bg-color: #FFFFFF;
   p {
     font-family: $main-font;
     font-weight: 500;
-  }
-  a {
+    
+    a {
     color: $button-color;
     text-decoration: none;
   }
+  }
+  
 }
