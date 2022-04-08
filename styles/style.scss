@@ -59,12 +59,12 @@ $form-bg-color: #FFFFFF;
   }
   .form-row {
     display: flex;
+    gap: 10%;
     margin-bottom: 1rem;
     font-size: 10px;
     font-weight: 500;
 
     .input-div {
-      margin-right: 10%;
       
       label {
         display: block;

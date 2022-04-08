@@ -113,13 +113,10 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 10%;
   margin-bottom: 1rem;
   font-size: 10px;
   font-weight: 500;
-}
-
-.middle .form-row .input-div {
-  margin-right: 10%;
 }
 
 .middle .form-row .input-div label {
