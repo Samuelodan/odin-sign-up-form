@@ -102,6 +102,10 @@ $form-bg-color: #FFFFFF;
     color: $form-bg-color;
     background-color: $button-color;
     margin-bottom: 2rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
   p {
     font-family: $main-font;
